@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editable Resume Builder</title>
+  <meta name="description" content="Create your own resume with our editable resume builder">
+  <meta name="keywords" content="resume builder, editable resume, online resume">
+  <meta name="author" content="Your Name">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="(link unavailable)">
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="Editable Resume Builder">
+  <meta property="og:description" content="Create your own resume with our editable resume builder">
+  <meta property="og:image" content="image.jpg">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Editable Resume Builder">
+  <meta property="twitter:description" content="Create your own resume with our editable resume builder">
+  <meta property="twitter:image" content="image.jpg">
+</head>
+<body>
+  <div class="container">
+    <h1>Editable Resume Builder</h1>
+    <form id="resume-form">
+        <section id="image">
+            <h2>Profile Picture</h2>
+            <img src="image.jpg" alt="Your Name" width="100" height="100">
+            <input type="file" id="image-upload" accept="image/*" placeholder="upload image">
+      </section>
+      <section>
+        <h2>Contact Information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+      </section>
+      <section>
+        <h2>Education</h2>
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree" name="degree">
+        <label for="institution">Institution:</label>
+        <input type="text" id="institution" name="institution">
+        <label for="duration">Duration:</label>
+        <input type="text" id="duration" name="duration">
+      </section>
+      <section>
+        <h2>Work Experience</h2>
+        <label for="job-title">Job Title:</label>
+        <input type="text" id="job-title" name="job-title">
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company">
+        <label for="duration">Duration:</label>
+        <input type="text" id="duration" name="duration">
+      </section>
+      <button id="generate-resume">Generate Resume</button>
+    </form>
+    <div id="resume-preview"></div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
+

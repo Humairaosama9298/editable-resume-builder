@@ -1,0 +1,13 @@
+{
+  "name": "editable-resume-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Humaira Osama",
+  "license": "MIT",
+  "description": "Editable Resume Builder: A web-based application to create and customize your resume with ease."
+}
